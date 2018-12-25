@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.js"></script>
+  </head>
+
+
+  <body>
+      <canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;">
+      </canvas> 
+      <button type="inputbutton" onclick="goBubble()" class = "goaway" >Bubble Sort</button>
+      <button type="inputbutton" onclick="goSelection() "class = "goaway">Selection Sort</button>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" id="AleguasIV">
+      </div>
+      <input type="number" placeholder="Number of Bars" step="1" class="goaway" id="barNums"><br>
+      
+    <script src="script.js"></script>
+    <script src="move.js"></script>
+  </body>
+  
+</html>
